@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,200&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="styles.css" />
+        <script defer type="module" src="./mockedPokemons.js"></script>
+        <script defer type="module" src="./classes.js"></script>
+        <script defer type="module" src="./seeder.js"></script>
+        <title>Pokemon App</title>
+    </head>
+    <body>
+        <button id="Poke_ball"></button>
+        <form class="search" id="form">
+            <input name="pokemonName" />
+            <button type="submit"></button>
+        </form>
+        <div class="card-list">
+            <div class="card">
+                <div class="image">
+                    <img src="./assets/Pikachu.jpeg" />
+                </div>
+                <div class="properties">
+                    <h3>Pikachu</h3>
+                    <p>Карточка покемона: <br><b>Уровень 100</b></br></p>
+                </div>
+                <div class="description">
+                    <p>
+                    Cущество из серии игр, манги и аниме «Покемон», принадлежащей компаниям <a href="https://ru.wikipedia.org/wiki/Nintendo" target="_ blank">Nintendo</a> 
+                    и <a href="https://ru.wikipedia.org/wiki/Game_Freak" target="_ blank">Game Freak</a>. <br>Пикачу, 
+                    являющийся одним из особенных существ вымышленной вселенной покемоном!</br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
